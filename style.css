@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0fdf4;
+  color: #1a2a1f;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 16px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #10b981;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+  color: #2d5a2c;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  font: inherit;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 0 2px rgba(16,185,129,0.1);
+}
+
+button {
+  border: none;
+  background: #10b981;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #059669;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+.btn-secondary {
+  background: #6c757d;
+}
+
+.btn-secondary:hover {
+  background: #5a6268;
+}
+
+.btn-outline-secondary {
+  background: transparent;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+  background: #6c757d;
+  color: white;
+}
+
+.entry-item {
+  border: 1px solid #d1fae5;
+  background: #fefce8;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 12px;
+  transition: all 0.2s;
+}
+
+.entry-item:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d1fae5;
+  padding-bottom: 8px;
+}
+
+.entry-title {
+  margin: 0;
+  color: #2d5a2c;
+  font-size: 1.2rem;
+}
+
+.entry-date {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.entry-contact {
+  margin: 10px 0;
+  padding: 8px;
+  background: #f0fdf4;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  color: #10b981;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.btn-copy {
+  background: #3b82f6;
+  padding: 4px 8px;
+  width: auto;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.btn-copy:hover {
+  background: #2563eb;
+}
+
+.entry-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.entry-buttons button {
+  width: auto;
+  padding: 6px 12px;
+  margin-bottom: 0;
+}
+
+.btn-edit {
+  background: #f59e0b;
+}
+
+.btn-edit:hover {
+  background: #d97706;
+}
+
+.btn-delete {
+  background: #ef4444;
+}
+
+.btn-delete:hover {
+  background: #dc2626;
+}
+
+.hidden {
+  display: none;
+}
+
+#message {
+  font-size: 0.9rem;
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+small.text-muted {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.75rem;
+}
