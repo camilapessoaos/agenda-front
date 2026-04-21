@@ -1,4 +1,4 @@
-```markdown
+
 # 📅 Agenda App - Frontend
 
 Interface web para o aplicativo de agenda de contatos. Desenvolvido com HTML, CSS e JavaScript puro, com recursos de Progressive Web App (PWA).
