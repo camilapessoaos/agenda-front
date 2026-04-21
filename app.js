@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api/entries';
+const API_URL = 'https://agenda-back-sb2t.onrender.com';
 
 const form = document.getElementById('entry-form');
 const entryId = document.getElementById('entry-id');
