@@ -57,7 +57,7 @@ async function loadEntries() {
     entriesList.innerHTML = entries.map(entry => `
       <div class="entry-item">
         <div class="entry-header">
-          <h3 class="entry-title">🐾 ${escapeHtml(entry.nome)}</h3>
+          <h3 class="entry-title">📗 ${escapeHtml(entry.nome)}</h3>
           <span class="entry-date">Criado em: ${formatDate(entry.createdAt)}</span>
         </div>
         <div class="entry-contact">
@@ -75,7 +75,7 @@ async function loadEntries() {
   } catch (error) {
     console.error('Erro:', error);
     showMessage('Erro ao carregar contatos. Verifique se o servidor está rodando.', true);
-    entriesList.innerHTML = '<p class="text-danger">❌ Erro ao carregar contatos. Certifique-se que o back-end está rodando em http://localhost:3000</p>';
+    entriesList.innerHTML = '<p class="text-danger">❌ Erro ao carregar contatos. Certifique-se que o back-end está rodando em https://localhost:3000</p>';
   }
 }
 
